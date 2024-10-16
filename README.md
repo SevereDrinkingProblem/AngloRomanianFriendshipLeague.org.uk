@@ -1,6 +1,4 @@
-https://severedrinkingproblem.github.io/
-
-www.angloromanianfriendshipleague.org.uk (soon...)
+http://www.angloromanianfriendshipleague.org.uk
 
 
 
