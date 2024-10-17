@@ -1,8 +1,8 @@
 .btncontainer
 {
-	width: 50vw; // the container will have half the width of the screen
-	display: flex; // flex will make all item sit side by side by default
-	flex-wrap: wrap; // flex items to sit below prior flex items if no space in that row.
+	width: 50vw; 
+	display: flex; 
+	flex-wrap: wrap; 
 }
 
 html, body {
@@ -42,7 +42,7 @@ width: 100%;
 }
 
 .centre {
-  position: absolute;
+  position: relative;
   top: 0%;
   width: 100%;
   text-align: center;
@@ -50,37 +50,31 @@ width: 100%;
 }
 
 .centredown {
-  position: absolute;
+  position: relative;
   top: 18%;
   width: 100%;
   text-align: center;
-  font-size: 18px;
 }
 
 .bottomleft {
   position: absolute;
-  bottom: 8px;
-  left: 16px;
+  bottom: 1%;
+  left: 1%;
   font-size: 18px;
 }
 
 .bottomright {
   position: absolute;
-  bottom: 8px;
-  right: 16px;
+  bottom: 1%;
+  right: 1%;
   font-size: 18px;
-}
-
-.topright {
-	postition: absolute;
-	top: 0%;
-	right: 10%;
 }
 
 .bottomcentre {
   position: absolute;
-  bottom: 8px;
-  left: 40%;
+  top: 98%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 18px;
 }
 
@@ -92,49 +86,15 @@ width: 100%;
   font-size: 18px;
 }
 
-.leftcenter {
-	position: absolute;
-	left: 5%;
-	top: 50%;
-}
-
-.leftcenterup {
-	position: absolute;
-	left: 5%;
-	top: 35%;
-}
-
-.leftcenterdown {
-	position: absolute;
-	left: 5%;
-	top: 65%;
-}
-
-.rightcenter {
-	position: absolute;
-	right: 5%;
-	top: 50%;
-}
-
-.rightcenterup {
-	position: absolute;
-	right: 5%;
-	top: 35%;
-}
-
-.rightcenterdown {
-	position: absolute;
-	right: 5%;
-	top: 75%;
-}
-
 .eurocuck {
   position: absolute;
-  top: 35%;
-  width: 100%;
-  text-align: center;
-  font-size: 18px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%, -40%);
 }
+
+
+
 
 a:link {
   color: black;
