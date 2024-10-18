@@ -97,22 +97,30 @@ width: 100%;
 
 
 a:link {
-  color: black;
+  color: #f0ead6;
+  background-color: #f0ead6;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   background-color: transparent;
   text-decoration: none;
 }
 a:visited {
-  color: #696969;
+  color: #f0ead6;
+  background-color: #f0ead6;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   background-color: transparent;
   text-decoration: none;
 }
 a:hover {
-  color: red;
+  color: #f0ead6;
+  background-color: #f0ead6;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   background-color: transparent;
   text-decoration: underline;
 }
 a:active {
-  color: yellow;
+  color: #f0ead6;
+  background-color: #f0ead6;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   background-color: transparent;
   text-decoration: underline;
 }
