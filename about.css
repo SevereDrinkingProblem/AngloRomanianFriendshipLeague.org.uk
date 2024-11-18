@@ -1,0 +1,117 @@
+.btncontainer
+{
+	width: 50vw; 
+	display: flex; 
+	flex-wrap: wrap; 
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: #008080;
+	color:black;
+	background-image: url('assets/bluebells.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+html {
+margin: 0px;
+height: 100%;
+width: 100%;
+}
+
+body {
+margin: 0px;
+min-height: 100%;
+width: 100%;
+}
+
+@font-face {
+        font-family: SiteWide;
+        src: url(TirtoWritterRegular-Eajrl.ttf);
+}
+
+.cursor {
+  padding: 30px 30px 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-family: monospace;
+}
+
+.centre {
+  position: absolute;
+  top: 5%;
+  width: 100%;
+  text-align: center;
+  }
+
+  .centre2 {
+    position: absolute;
+    left: 25%;
+    top: 12%;
+    width: 50%;
+    word-wrap: break-word;
+    text-align: center;
+    }
+
+
+    .table{
+        position: absolute;
+        left: 15%;
+        bottom: 8%;
+        width: 70%;
+        text-align: center;
+    }
+
+    .home {
+        position: absolute;
+        top: 1%;
+        left: 1%;
+        color: #f0ead6;
+        background-color: #f0ead6;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        background-color: transparent;
+      }
+
+.bottomcentre {
+  position: absolute;
+  top: 98%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+
+
+
+
+a:link {
+  color: #f0ead6;
+  background-color: #f0ead6;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #f0ead6;
+  background-color: #f0ead6;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #f0ead6;
+  background-color: #f0ead6;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: #f0ead6;
+  background-color: #f0ead6;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  background-color: transparent;
+  text-decoration: underline;
+}
